@@ -4,7 +4,11 @@
 import { PlayerInterface } from "./azul.js";
 import { GameState, State } from "./state.js";
 
-// The result from a single game
+/**
+ * Represents the final result of a completed Azul game.
+ * Contains information about player scores, the winner (if any),
+ * and which player started the game.
+ */
 export class GameResult {
     constructor(
         public scores: Array<number>,
