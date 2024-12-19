@@ -2,6 +2,9 @@ import { Move } from "./azul.js";
 import { PlayerBoard } from "./playerboard.js";
 import { GameState } from "./state.js";
 
+/** Prints the current game state to the console, including factories, player boards, and wall positions
+ * @param gs The current game state to print
+ */
 export function printGame(gs: GameState): void {
     console.log("\nGame Board\n");
     console.log("Factories");
